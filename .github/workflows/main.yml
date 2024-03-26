@@ -42,4 +42,4 @@ jobs:
         with:
           version: 2.0.18    
       # Runs a single command using the runners shell
-      - run: asciidoctor -o {GITHUB_REPOSITORY}.html -s README.adoc
+      - run: asciidoctor -o A900.html -s README.adoc
