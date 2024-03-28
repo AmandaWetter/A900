@@ -31,10 +31,9 @@ endif::[]
 = <Title der Modelldokumentation>
 [.subtitle]#<Untertitel der Modelldokumentation># +
 
-https://amandawetter.github.io/A900_Entrypage/[zur Startseite]
-
 // Die Verwiese auf die Inhalte der Dokumentation sollen im README auf Github nicht angezeigt werden.
 ifndef::env-github[]
+https://amandawetter.github.io/A900_Entrypage/[zur Startseite]
 include::{includedir}/impressum.adoc[]
 include::{includedir}/allgemeines.adoc[]
 include::{includedir}/modellbeschreibung.adoc[]
