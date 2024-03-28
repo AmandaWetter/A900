@@ -42,4 +42,15 @@ jobs:
         with:
           version: 2.0.18    
       # Runs a single command using the runners shell
-      - run: asciidoctor -s README.adoc
+      - run: asciidoctor -o index.html README.adoc
+      name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
