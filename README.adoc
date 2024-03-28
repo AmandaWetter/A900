@@ -30,8 +30,6 @@ endif::[]
 
 = <Title der Doku>
 [.subtitle]#<Untertitel der Modelldokumentation># +
-
-== Links
 https://amandawetter.github.io/A900_Entrypage/[zur Startseite]
 
 // Die Verwiese auf die Inhalte der Dokumentation sollen im README auf Github nicht angezeigt werden.
