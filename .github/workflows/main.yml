@@ -43,7 +43,7 @@ jobs:
           version: 2.0.18    
       # Runs a single command using the runners shell
       - run: asciidoctor -o index.html README.adoc
-      name: Setup Pages
+      - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
