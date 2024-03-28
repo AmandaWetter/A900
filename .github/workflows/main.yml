@@ -41,7 +41,7 @@ jobs:
         run: gem install asciidoc    
       # Runs a single command using the runners shell
       - run: echo "Start Asciidoc"
-             asciidoctor -o index.html ./README.adoc
+             asciidoctor -o ./index.html ./README.adoc
              echo "Finished Asciidoc"
       - name: Setup Pages
         id: pages
