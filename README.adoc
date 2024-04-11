@@ -21,14 +21,14 @@ ifndef::env-github[:toc: left]
 // Todo Header Styling und Environment ändern auf Doc. Header auf der Webseite muss auf andere Weise integriert werden
 ifdef::backend-pdf[]
 include::{includedir}/headerSZ.adoc[]
+= <Titel der Doku>
 endif::[]
 
 ifndef::env-github[]
 ifndef::backend-pdf[]
 [.img-logo]
 image:{includedir}/img/logo_kt_sz_rgb.jpg[]
-endif::[]
-endif::[]
+
 
 = <Title der Doku>
 [.subtitle]#<Untertitel der Modelldokumentation># +
@@ -39,7 +39,8 @@ endif::[]
 * https://ch-sz-geo.github.io/A000/ebook.pdf[Dokumentation als Pdf] +
 
 ****
-
+endif::[]
+endif::[]
 // Die Verwiese auf die Inhalte der Dokumentation sollen im README auf Github nicht angezeigt werden.
 ifndef::env-github[]
 include::{includedir}/impressum.adoc[]
