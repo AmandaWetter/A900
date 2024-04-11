@@ -24,8 +24,7 @@ include::{includedir}/headerSZ.adoc[]
 = <Titel der Doku pdf>
 endif::[]
 
-ifndef::env-github[]
-ifndef::backend-pdf[]
+ifndef::env-github,backend-pdf[]
 [.img-logo]
 image:{includedir}/img/logo_kt_sz_rgb.jpg[]
 
@@ -40,7 +39,7 @@ image:{includedir}/img/logo_kt_sz_rgb.jpg[]
 
 ****
 endif::[]
-endif::[]
+
 // Die Verwiese auf die Inhalte der Dokumentation sollen im README auf Github nicht angezeigt werden.
 ifndef::env-github[]
 include::{includedir}/impressum.adoc[]
@@ -52,7 +51,7 @@ endif::[]
 
 // Erklärung und Link auf Website
 ifdef::env-github[]
-Das aktuelle Datenmodell ist unter https://ch-sz-geo.github.io/A000/ erreichbar.
-
-Hier erhalte ich das Pdf https://raw.github.com/ch-sz-geo.github.io/A000/gh-pages/ebook.pdf
+== Modelldokumentation
+Die ganze Übersicht der Modelldokumentation befindet sich unter folgendem Link:
+https://ch-sz-geo.github.io/A000_entrypage/[Modelldokumentation Startseite]
 endif::[]
