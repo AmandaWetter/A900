@@ -1,4 +1,5 @@
 ifdef::env-github,backend-pdf[]
+include::{includedir}/headerSZ.adoc[]
 = Modelldokumentation
 endif::[]
 ifndef::env-github[:toc: left]
