@@ -41,7 +41,7 @@ li a {
 	color: black;
 	cursor: pointer;
 	margin: 0px;
-	text-indent: initial;
+	text-indent: initial !important;
 }
 
 li a:hover {
