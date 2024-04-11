@@ -28,6 +28,12 @@ ul.sectlevel0 > li > a {
 	height: 0px;
 }
 
+a {
+	font-family: 'trade gothic';
+	font-size: 12pt;
+	color: #666666
+}
+
 li a {
 	font-family: 'trade gothic';
 	font-size: 12pt;
@@ -148,5 +154,5 @@ th {
 	width: 100%;
 	position: static;
 	left: -40px;
-	border-bottom: 2px solid #666666;
+	border-bottom: 1px solid #dedede;
 }
