@@ -30,6 +30,7 @@ endif::[]
 
 = <Title der Doku>
 [.subtitle]#<Untertitel der Modelldokumentation># +
+ 
  https://ch-sz-geo.github.io/A000_entrypage/[zur Startseite]
  https://github.com/AmandaWetter/A900/tree/main/data[Übersicht Modelle]
  https://ch-sz-geo.github.io/A000/ebook.pdf [Dokumentation als Pdf]
