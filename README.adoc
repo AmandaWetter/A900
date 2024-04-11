@@ -1,12 +1,12 @@
 ifdef::env-github,backend-pdf[]
 = Modelldokumentation
 :title-page:
-//:title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
-:title-page-background-image: image:./docs/img/header_sz_pdf.pdf[]
+:title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
+//:title-page-background-image: image:./docs/img/header_sz_pdf.pdf[]
 :doctype: book
 endif::[]
-
-ifndef::env-github[:toc: left]
+ifdef::backend-html5,backend-pdf[]
+//ifndef::env-github[:toc: left]
 :toc-title: Inhalt
 :toclevels: 3
 :figure-caption: Abbildung
