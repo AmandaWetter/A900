@@ -24,8 +24,10 @@ include::{includedir}/headerSZ.adoc[]
 endif::[]
 
 ifndef::env-github[]
+ifndef::backend-pdf[]
 [.img-logo]
 image:{includedir}/img/logo_kt_sz_rgb.jpg[]
+endif::[]
 endif::[]
 
 = <Title der Doku>
