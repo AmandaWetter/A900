@@ -1,9 +1,8 @@
+ifndef::env-github[:toc: left]
 ifdef::backend-pdf[]
 include::{includedir}/headerSZ.adoc[]
 = <Titel der Doku pdf>
 endif::[]
-
-ifndef::env-github[:toc: left]
 :toc-title: Inhalt
 :toclevels: 3
 :figure-caption: Abbildung
@@ -53,6 +52,7 @@ endif::[]
 
 // Erklärung und Link auf Website
 ifdef::env-github[]
+[discrete]
 == Modelldokumentation
 Die ganze Übersicht der Modelldokumentation befindet sich unter folgendem Link:
 https://ch-sz-geo.github.io/A000_entrypage/[Modelldokumentation Startseite]

@@ -32,7 +32,8 @@ p a {
 	font-family: 'trade gothic';
 	font-size: 12pt;
 	color: #666666;
-	height: min-content;
+	max-heigth: auto !important;
+	
 }
 
 li a {
@@ -51,7 +52,6 @@ li a:hover {
 	padding: 2px;
 	color: #000000;
 	margin-top: 2px;
-
 }
 
 /*#toc li ul.sectlevel1 li, ul.sectlevel2 li, ul.sectlevel3 li {
