@@ -1,11 +1,12 @@
 ifdef::env-github,backend-pdf[]
 = Modelldokumentation
 :title-page:
-:title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
+//:title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
+:title-page-background-image: image:./docs/img/header_sz_pdf.pdf[]
 :doctype: book
 endif::[]
-ifndef::env-github[:toc: left]
 
+ifndef::env-github[:toc: left]
 :toc-title: Inhalt
 :toclevels: 3
 :figure-caption: Abbildung
@@ -28,7 +29,7 @@ ifndef::env-github[:toc: left]
 // Todo Header Styling und Environment ändern auf Doc. Header auf der Webseite muss auf andere Weise integriert werden
 
 ifdef::backend-pdf[]
-include::{includedir}/headerSZ.adoc[]
+//include::{includedir}/headerSZ.adoc[]
 = <Titel der Doku pdf>
 endif::[]
 
