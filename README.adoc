@@ -1,8 +1,11 @@
 ifdef::env-github,backend-pdf[]
 = Modelldokumentation
+:title-page:
+:title-logo-image: image:./docs/img/logo_kt_sz_rgb.jpg[top=25%,align=center,pdfwidth=0.5in]
+:doctype: book
 endif::[]
 ifndef::env-github[:toc: left]
-:title-logo-image: image:docs/img/logo_kt_sz.rgb.jpg[top=25%,align=center,pdfwidth=0.5in]
+
 :toc-title: Inhalt
 :toclevels: 3
 :figure-caption: Abbildung
