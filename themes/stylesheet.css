@@ -65,6 +65,12 @@ h1 a.link {
 	color: #000000 !important;
 }
 
+a {
+	font-family: 'trade gothic';
+	font-size: 12pt;
+	color: #666666
+}
+
 .subtitle {
 	font-family: 'trade gothic';
 	font-weight: bold;
