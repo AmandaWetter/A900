@@ -1,32 +1,22 @@
-ifdef::backend-pdf[]
-= Modelldokumentation Title
-:toc-title: Inhalt
-:toclevels: 3
-:figure-caption: Abbildung
-:example-caption!:
-:table-caption: Tabelle
-:note-caption: Hinweis
-:title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
-:data-uri:
-:source-highlighter: highlight.js
-:sectnums:
-:sectnumlevels: 5
-:sectlinks:
-:sectanchors:
-:includedir: docs
-:stylesheet: themes/stylesheet.css
-:pdf-theme: themes/pdf-theme.yml
-:pdf-fontsdir: fonts/
-:doctype: book
+ifndef::backend-pdf[]
+[notitle]
 endif::[]
+= Modelldokumentation Title
+ifdef::env-github,backend-pdf[]
+:title-page:
+:title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
+//:title-page-background-image: image:./docs/img/header_sz_pdf.pdf[]
+endif::[]
+//ifdef::backend-html5,backend-pdf[]
 ifndef::env-github[:toc: left]
-:title: Modelldokumentationen
+//:title: Modelldokumentationen
 :toc-title: Inhalt
 :toclevels: 3
 :figure-caption: Abbildung
 :example-caption!:
 :table-caption: Tabelle
 :note-caption: Hinweis
+// zum Generieren eines PDF aus VS Code (HTML muss mit eingebetteten Bildern generiert werden, damit daraus ein korrektes PDF erstellt werden kann)
 :data-uri:
 :source-highlighter: highlight.js
 :sectnums:
