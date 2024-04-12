@@ -46,11 +46,12 @@ li a:hover {
 	margin-top: 2px;
 }
 
-a:hover {
+.sidebarblock p:hover {
 	font-family: 'trade gothic';
 	font-size: 12pt;
 	color: #666666;
-	line-height: 0.5cm !important;	
+	background-color: #00FF00;
+	height: max-content !important;	
 }
 
 /*#toc li ul.sectlevel1 li, ul.sectlevel2 li, ul.sectlevel3 li {
