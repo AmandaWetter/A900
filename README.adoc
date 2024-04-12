@@ -1,30 +1,17 @@
+// Hier den Titel eingeben
+:title: <Titel der Modelldokumentation> 
+:subtitle: <Untertitel der Dokumentation>
 ifdef::backend-pdf[]
-= Modelldokumentation Title
-:toc-title: Inhalt
-:toclevels: 3
-:figure-caption: Abbildung
-:example-caption!:
-:table-caption: Tabelle
-:note-caption: Hinweis
+= {title}
+{subtitle} 
 :title-logo-image: image:./docs/img/header_sz_pdf.jpg[top=-1%,align=center]
-:data-uri:
-:source-highlighter: highlight.js
-:sectnums:
-:sectnumlevels: 5
-:sectlinks:
-:sectanchors:
-:includedir: docs
-:stylesheet: themes/stylesheet.css
 :pdf-theme: themes/pdf-theme.yml
 :pdf-fontsdir: fonts/
-:doctype: book
 endif::[]
 ifndef::env-github[:toc: left]
-:title: Modelldokumentationen
 :toc-title: Inhalt
 :toclevels: 3
 :figure-caption: Abbildung
-:example-caption!:
 :table-caption: Tabelle
 :note-caption: Hinweis
 :data-uri:
@@ -35,24 +22,18 @@ ifndef::env-github[:toc: left]
 :sectanchors:
 :includedir: docs
 :stylesheet: themes/stylesheet.css
-:pdf-theme: themes/pdf-theme.yml
-:pdf-fontsdir: fonts/
 :doctype: book
+:!chapter-signifier:
 
 // Todo Header Styling und Environment ändern auf Doc. Header auf der Webseite muss auf andere Weise integriert werden
-
-ifdef::backend-pdf[]
-//include::{includedir}/headerSZ.adoc[]
-= <Titel der Doku pdf>
-endif::[]
 
 ifndef::env-github,backend-pdf[]
 [.img-logo]
 image:{includedir}/img/logo_kt_sz_rgb.jpg[]
 
-
-= <Title der Doku>
-[.subtitle]#<Untertitel der Modelldokumentation># +
+= {title}
+//= <Title der Doku>
+[.subtitle]#{subtitle}# +
 
 ****
 
