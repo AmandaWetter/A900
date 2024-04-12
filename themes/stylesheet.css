@@ -46,7 +46,7 @@ li a:hover {
 	margin-top: 2px;
 }
 
-p:hover {
+li:hover {
 	font-family: 'trade gothic';
 	font-size: 12pt;
 	color: #666666;
