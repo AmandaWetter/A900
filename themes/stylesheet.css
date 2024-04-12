@@ -103,6 +103,10 @@ h4, h4 a.link{
 	font-size: 15pt;
 }
 
+h1 a.link:hover, h2 a.link:hover, h3 a.link:hover, h4 a.link:hover {
+	color: #555555;
+}
+
 #toc {
 	background-color: #d9d9d9;
 }
