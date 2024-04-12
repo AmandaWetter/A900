@@ -34,7 +34,7 @@ ul.sectlevel0 > li > a {
 }
 
 li a {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-size: 12pt;
 	color: black;
 	cursor: pointer;
@@ -56,7 +56,7 @@ li a:hover {
 }*/
 
 h1 a.link {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-weight: bold;
 	font-size: 36pt;
 	line-height: 41pt;
@@ -64,13 +64,13 @@ h1 a.link {
 }
 
 a {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-size: 12pt;
 	color: #666666;
 }
 
 .subtitle {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-weight: bold;
 	font-size: 24pt;
 	line-height: 20pt;
@@ -83,21 +83,21 @@ img[alt="logo kt sz rgb"] {
 }
 
 h2, h2 a.link {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-weight: bold;
 	color: #000000;
 	font-size: 24pt;
 }
 
 h3, h3 a.link {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-weight: bold;
 	color: #000000;
 	font-size: 18pt;
 }
 
 h4, h4 a.link{
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-weight: bold;
 	color: #000000;
 	font-size: 15pt;
@@ -108,7 +108,7 @@ h4, h4 a.link{
 }
 
 #toctitle {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-weight: bold;
 	color: #000000;
 	font-size: 24pt;
@@ -162,7 +162,7 @@ th {
 }
 
 .sidebarblock li a:hover {
-	font-family: 'trade gothic';
+	font-family: 'trade gothic', sans-serif;
 	font-size: 12pt;
 	color: #666666;
 	background-color: #00FF00;
