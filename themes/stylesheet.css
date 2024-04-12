@@ -50,7 +50,7 @@ p:hover {
 	font-family: 'trade gothic';
 	font-size: 12pt;
 	color: #666666;
-	line-height: 0 !important;	
+	line-height: 0.5cm !important;	
 }
 
 /*#toc li ul.sectlevel1 li, ul.sectlevel2 li, ul.sectlevel3 li {
