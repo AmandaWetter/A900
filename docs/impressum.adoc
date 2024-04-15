@@ -1,6 +1,12 @@
 [discrete]
 === Impressum
 
+ifdef::backend-html5[]
+==== Hier mache ich einen Test, ob ich es nur auf der Webseite sehe
+Blibla blob +
+blibla blob +
+endif::[]
+
 .Erstellung
 [%collapsible]
 ====
