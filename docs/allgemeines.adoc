@@ -12,6 +12,7 @@ Geobasisdaten des Bundesrechts mit Zuständigkeit beim Kanton“ und im Anhang 2
 Geobasisdaten des kantonalen Rechts“. Darin werden die Fachstellen definiert, welche für die
 Ausarbeitung eines Geodatenmodells zuständig sind.
 
+Halli Hallo
 
 ===  Zweck des Dokuments
 Dieses Dokument beschreibt den Geobasisdatensatz
